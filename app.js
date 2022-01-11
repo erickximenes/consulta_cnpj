@@ -3,6 +3,7 @@ const consultarCNPJ = require("consultar-cnpj");
 
 const app = express();
 
+
 app.get('/consulta', async function(req, res) {
     const { cnpj } = req.query;
     await consultarCNPJ(cnpj).then((response) => {
@@ -14,6 +15,6 @@ app.get('/consulta', async function(req, res) {
     })
 });
 
-app.listen(3001, function() {
-    console.log('Microsserviço iniciado na porta http://localhost:3001');
+app.listen(3000, function() {
+    console.log('Microsserviço iniciado na porta http://localhost:3000');
 });

@@ -33,7 +33,7 @@ Para usar consulta_cnpj, siga estas etapas:
 npm start
 ```
 
-Abra o seu navegador de preferência, e acesse a url: `http://localhost:3001/consulta/?code=00000000000000`, lembre-se de alterar os 0 pelo CNPJ que deseja consultar.
+Abra o seu navegador de preferência, e acesse a url: `http://localhost:3000/consulta/?cnpj=00000000000000`, lembre-se de alterar os 0 pelo CNPJ que deseja consultar.
 
 
 ## 🤝 Colaboradores
